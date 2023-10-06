@@ -1,0 +1,3 @@
+These are code for Practical2. To compile:
+gfortran Conversion.f90 -o Convert
+gfortran Sum.f90 -o sum
