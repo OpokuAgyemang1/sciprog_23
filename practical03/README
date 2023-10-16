@@ -1,0 +1,5 @@
+These are codes for practical03, to compile:
+gfortran print.f90 -o printing
+gfortran integra.f90 -o integraf
+
+
