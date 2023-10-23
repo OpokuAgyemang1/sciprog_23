@@ -1,0 +1,4 @@
+This is code for practical 4. To compile:
+
+gfortran trapezodial_v3.f90 -o trapezodial
+
