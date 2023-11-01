@@ -1,0 +1,6 @@
+These are codes for practical05, To compile:
+
+gfortran read_2.f90 -o read
+gfortran fibonacci.f90 -o fibonacci
+gfortran inversehyperbolic.f90 -o invhypo
+
