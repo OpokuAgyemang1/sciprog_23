@@ -1,0 +1,6 @@
+This readme file contain code for estimating e.
+To compile:
+
+gfortran finde.f90 -o finde
+
+
