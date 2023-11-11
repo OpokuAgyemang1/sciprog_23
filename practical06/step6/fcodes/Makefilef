@@ -1,0 +1,18 @@
+FC = gfortran
+FCFLAG = -03
+LDFLAG = -lm
+
+all: matmultf
+
+matmultf: main.o matmult.o
+	$(FC) -o $@  $^ $(LDFLAGS)
+
+matmult.o: matmult.f90
+	$(FC) -c $(FCFLAGS) $<
+
+main.o: main.f90
+	$(FC) -c $(FCFLAGS) $<
+
+clean:
+	rm*.o
+

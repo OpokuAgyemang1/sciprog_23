@@ -1,0 +1,7 @@
+This readme file contains codes for mattrix multiplication and makefile.
+To compile:
+gfortran matmult.f90 -o matmultf
+
+make -f Makefilef
+
+
